@@ -1,6 +1,6 @@
 # Spring project by using GitHub Open API's.  
 
-.jar and .bat files are in the hitit-spring-demo/hitit /target/ folder.  
+.jar and .bat files are in the hitit-spring-demo/hitit/target/ folder.  
 
 1- First, repositories should be created by going to "localhost:port + /api/create-repos".
 <br>
