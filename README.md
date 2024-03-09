@@ -5,6 +5,7 @@
 
 Sample queries:
 SELECT * FROM repository_table;
+<br>
 SELECT * FROM user_detail;
 
 Spring (java) was used for project coding and H2 database was used for the database. Database information is located in the application.properties file. Table records can be examined from the "localhost:port + /h2-console" page.
