@@ -18,17 +18,17 @@ Spring (java) was used for project coding and H2 database was used for the datab
 ![database structure](https://github.com/kemoek/hitit-spring-demo/assets/59113696/886b202e-f087-4f09-922c-8467fb6c986f)
 <br>  
 CREATE TABLE repository_table ( <br>
-                            id INT PRIMARY KEY,
+                            id INT PRIMARY KEY, <br>
                             repository_name VARCHAR(255) NOT NULL <br>
 );
 
 CREATE TABLE user_detail ( <br>
-                      id INT PRIMARY KEY,
-                      repository_id INT,
-                      username VARCHAR(255) NOT NULL,
-                      location VARCHAR(255),
-                      company VARCHAR(255),
-                      contributions INT,
+                      id INT PRIMARY KEY, <br>
+                      repository_id INT, <br>
+                      username VARCHAR(255) NOT NULL, <br>
+                      location VARCHAR(255), <br>
+                      company VARCHAR(255), <br>
+                      contributions INT, <br>
                       FOREIGN KEY (repository_id) REFERENCES repository_table(id) <br>
 );  
 <br>
