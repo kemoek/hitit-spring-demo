@@ -1,5 +1,14 @@
 # Spring project by using GitHub Open API's.
 
+1- First, repositories should be created by going to "localhost:port + /api/create-repos".
+2- Secondly, to get the information of the contributing users, you need to go to "localhost:port + /api/create-contributions".
+
+Sample queries:
+SELECT * FROM repository_table;
+SELECT * FROM user_detail;
+
+Spring (java) was used for project coding and H2 database was used for the database. Database information is located in the application.properties file. Table records can be examined from the "localhost:port + /h2-console" page.
+
 1- Database Structure
 ![database structure](https://github.com/kemoek/hitit-spring-demo/assets/59113696/886b202e-f087-4f09-922c-8467fb6c986f)
 
