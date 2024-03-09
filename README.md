@@ -5,12 +5,7 @@
 1- First, repositories should be created by going to "localhost:port + /api/create-repos".
 <br>
 2- Secondly, to get the information of the contributing users, you need to go to "localhost:port + /api/create-contributions".  
-<br>
-Sample queries:
-<br>
-SELECT * FROM repository_table;
-<br>
-SELECT * FROM user_detail;  
+
 <br>
 Spring (java) was used for project coding and H2 database was used for the database. Database information is located in the application.properties file. Table records can be examined from the "localhost:port + /h2-console" page.  
 
